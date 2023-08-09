@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HUMAYA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-dark py-3 position-absolute z-1 w-100 opacity-75"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">
+            <img
+              src="./images/logo.png"
+              alt="Logo"
+              width="50"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-white" aria-current="page" href="#"
+                >inicio</a
+              >
+              <a class="nav-link text-white" href="#">porductos</a>
+              <a class="nav-link text-white" href="#">contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="card text-bg-dark position-relative border-0 rounded-0 " id="banner">
+        <img
+          src="./images/banner.jpg"
+          class="card-img rounded-0"
+          alt="..."
+        />
+        <div class="card-img-overlay row col-4 offset-8 align-content-center">
+          <h1 class="card-title my-2 px-0">Dulces</h1>
+          <p class="card-text fs-5 px-0">texto de presentacion</p>
+          <button
+            class="btn btn-secondary w-auto py-2 px-4 mt-2"
+            href="#conocenos"
+          >
+            Conocenos
+          </button>
+        </div>
+      </section>
+      <section id="productos">
+        <h2 class="text-center bg-dark text-white py-3 m-0">Productos</h2>
+        <div class="card border-0 rounded-0" >
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="./images/producto1.jpg" class="img-fluid border-0 rounded-0" alt="producto 1">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body bg-dark text-white h-100 d-flex flex-column justify-content-center m-0 border-0 rounded-0 px-5">
+                <h2 class="card-title">Producto 1</h2>
+                <p class="card-text fs-5">Esta es la descripcion del producto 1.</p>
+                <p class="card-text fs-4">$$$$$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 rounded-0" >
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body bg-dark text-white h-100 d-flex flex-column justify-content-center m-0 border-0 rounded-0 px-5">
+                <h2 class="card-title">Producto 2</h2>
+                <p class="card-text fs-5">Esta es la descripcion del producto 2.</p>
+                <p class="card-text fs-4">$$$$$</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="./images/producto2.jpg" class="img-fluid border-0 rounded-0" alt="producto 2">
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 rounded-0" >
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="./images/producto3.jpg" class="img-fluid border-0 rounded-0" alt="producto 3">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body bg-dark text-white h-100 d-flex flex-column justify-content-center m-0 border-0 rounded-0 px-5">
+                <h2 class="card-title">Producto 3</h2>
+                <p class="card-text fs-5">Esta es la descripcion del producto 3.</p>
+                <p class="card-text fs-4">$$$$$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto " class="bg-dark">
+        <h2 class="text-center bg-dark text-white py-4 ">Contacto</h2>
+        <div class="bg-dark text-white mb-4 mx-auto w-75 ">
+          <label for="nombre" class="form-label">Nombre y apellido</label>
+          <input type="text" class="form-control " id="nombre" placeholder="Jon Doe">
+        </div>
+        <div class="bg-dark text-white mb-4 mx-auto w-75 ">
+          <label for="email" class="form-label">Correo electronico</label>
+          <input type="email" class="form-control " id="email" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="bg-dark text-white pb-4 mx-auto w-75">
+          <label for="exampleFormControlTextarea1" class="form-label">Su consulta aqui</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
