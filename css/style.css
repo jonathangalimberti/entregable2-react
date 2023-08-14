@@ -8,6 +8,11 @@
     color: var(--texto-color-secundario);
 }
 
+.border-buttons{
+    color: var(--texto-color-secundario);
+    border: 3px solid var(--texto-color-secundario);
+}
+
 .background-secondary{
     background-color: var(--color-principal);
 }
