@@ -1,7 +1,6 @@
 :root {
     --color-principal: #ccb56b;
     --texto-color-secundario: #443401;
-    --texto-botones-claros: brown;
 }
 
 .text-principal{
@@ -17,8 +16,6 @@
 .border-buttons:hover{
     color: white;
     background-color:var(--texto-color-secundario) ;
-
-   
 }
 
 .background-secondary{
