@@ -9,8 +9,16 @@
 }
 
 .border-buttons{
+    background-color: transparent;
     color: var(--texto-color-secundario);
     border: 3px solid var(--texto-color-secundario);
+}
+
+.border-buttons:hover{
+    color: white;
+    background-color:var(--texto-color-secundario) ;
+
+   
 }
 
 .background-secondary{
