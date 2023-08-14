@@ -1,0 +1,21 @@
+:root {
+    --color-principal: #ccb56b;
+    --texto-color-secundario: #443401;
+    --texto-botones-claros: brown;
+}
+
+.text-principal{
+    color: var(--texto-color-secundario);
+}
+
+.background-secondary{
+    background-color: var(--color-principal);
+}
+
+.background-primary{
+    background-color: rgb(65, 64, 64);
+}
+
+.text-consulta{
+    color: var(--texto-color-secundario);
+}
